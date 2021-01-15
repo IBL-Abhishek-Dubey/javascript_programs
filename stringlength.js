@@ -1,14 +1,12 @@
-arr= ["young", 
-"yooooooung", 
-"hot", 
-"or", 
-"not", 
-"come", 
-"on", 
-"fire", 
-"water", 
-"watermelon"];
-var new_arr = [];
+arr= ["a", 
+"abc", 
+"cbd", 
+"zzzzzz", 
+"a", 
+"abcdef", 
+"asasa", 
+"aaaaaa"];
+var new_array = [];
  var max_len =0;
  var max_str = [];
  
