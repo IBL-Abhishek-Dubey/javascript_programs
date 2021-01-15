@@ -6,20 +6,20 @@ arr= ["a",
 "abcdef", 
 "asasa", 
 "aaaaaa"];
-var new_array = [];
- var max_len =0;
+v
+ var max_length =0;
  var max_str = [];
  
  for(i=0;i<arr.length ; i++){
      
-    if(arr[i].length >= max_len) {
-           max_len = arr[i].length;            
+    if(arr[i].length >= max_length) {
+           max_length = arr[i].length;            
      }
    
   }
 
   for (i=0 ; i< arr.length ; i++){
-      if(arr[i].length == max_len){
+      if(arr[i].length == max_length){
           max_str.push(arr[i]);
       }
   }
