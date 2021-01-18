@@ -10,12 +10,20 @@ class Account{                      // Declare SuperClass
 
         deposite(amount){
             balance = this.initial_balance + amount;
-            console.log(balance);
+            console.log("Your Amount is Deposite now Balance is :-" + balance);
         }
 
         widhraw(amount){
-            balance =  balance - amount;
-            console.log("your Money is Widhraw :- " + balance);
+            if(amount <=0){
+                console.log("insufficent Amount in your Account")
+            }
+            else{
+
+                balance =  balance - amount;
+                console.log("your Money is Widhraw  Now Balance is :- " + balance);
+
+            }
+           
         }
 
 
